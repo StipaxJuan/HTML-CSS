@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(149, 161, 81);
+    margin: 0px;
+}
+@font-face {
+    font-family: 'stipax';
+    src: url(cybero.ttf);
+}
+header {            
+    background-image: linear-gradient(to bottom, #2f942c,#33912f,#115715,#013a01);
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.603);
+}
+nav {
+    background-color: #013a01;
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.603);
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+main {
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    margin: 0px 150px 10px 150px;            
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.603);
+    
+}
+article{
+    background-color: rgb(214, 216, 211);
+    padding: 5px;
+}
+footer {
+    background-color: rgb(1, 63, 1);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p {
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.685);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+    
+}
+.p {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 40px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.685);
+}
+h2 {
+    background-image: linear-gradient(to bottom, #58e054,#43d13e,#2fac35,#52ca52);
+    font-family: 'stipax';
+    font-size: 3em;
+    color: #013a01;
+}
+h3{
+    background-image: linear-gradient(to bottom, #58e054,#43d13e,#2fac35,#52ca52);
+    font-family: 'stipax';   
+    font-size: 2em;
+    color: #013a01; 
+}
+p{
+
+    font-size: 1.3em;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
